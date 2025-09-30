@@ -510,6 +510,9 @@ FodyWeavers.xsd
 *.sln.iml
 .idea/
 
+# Other, manually added by dev
+Stormflake.Common.props
+
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
