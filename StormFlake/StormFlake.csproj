@@ -20,4 +20,13 @@
     <None Include="../README.md" Pack="true" PackagePath="/"/>
     <None Include="../LICENSE" Pack="true" PackagePath="/"/>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="libs\Assembly-CSharp.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>libs\Assembly-CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
