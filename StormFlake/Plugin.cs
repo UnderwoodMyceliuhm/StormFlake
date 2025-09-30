@@ -4,8 +4,6 @@ using HarmonyLib;
 
 namespace StormFlake;
 
-// TODO Review this file and update to your own requirements.
-
 [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
 public class Plugin : BaseUnityPlugin {
     // Mod specific details
